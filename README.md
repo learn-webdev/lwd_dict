@@ -1,24 +1,17 @@
-# README
+# Learn WebDev - LWD Dictionary
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project by the Phoenix, AZ [Learn WebDev](https://www.meetup.com/webdev-phx/) Meetup Group.
 
-Things you may want to cover:
+See the application running here: [https://github.com/learn-webdev/lwd_dict](https://github.com/learn-webdev/lwd_dict).
 
-* Ruby version
+We welcome contributions from everyone!
 
-* System dependencies
+## Getting Started
 
-* Configuration
+See the [getting started guide](https://github.com/learn-webdev/lwd_dict/wiki/Getting-Started) for details on how to start developing.
 
-* Database creation
+## Feature Requests and Bug Reports
 
-* Database initialization
+File issues for feature requests and bug reports.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For discussion about this project, join the [Learn WebDev Slack group](https://learnwebdev-slackin.herokuapp.com/).
