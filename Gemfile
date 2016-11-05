@@ -43,6 +43,12 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
+  # Used for automatically running tests.
+  gem 'spring-commands-rspec'
+  gem 'guard-rspec'
+  gem 'rb-fsevent' if `uname` =~ /Darwin/
+
+  # Used for livereloading pages.
   gem 'guard-livereload', '~> 2.5'
   gem 'rack-livereload', '~> 0.3.16'
 
