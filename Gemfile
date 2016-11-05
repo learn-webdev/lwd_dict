@@ -30,8 +30,13 @@ group :development, :test do
   gem 'byebug', platform: :mri
 
   gem 'rspec-rails', '~> 3.5'
+
   gem 'factory_girl_rails', '~> 4.7'
   gem 'faker'
+end
+
+group :test do
+  gem 'rails-controller-testing', '~> 1.0.1'
 end
 
 group :development do
