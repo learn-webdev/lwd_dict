@@ -1,5 +1,7 @@
+require 'faker'
+
 FactoryGirl.define do
   factory :word do
-    word 'test word'
+    word Faker::Lorem.word
   end
 end
