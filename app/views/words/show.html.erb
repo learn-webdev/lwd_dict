@@ -3,7 +3,22 @@
 <p>
   <strong>Word:</strong>
   <%= @word.word %>
+  <% if @word.definitions %>
+    <ul>
+      <% @word.definitions.each do |d| %>
+        <li><%= d.definition %></li>
+      <% end %>
+  <% end %>
 </p>
+
+<div>
+  Add a definition.
+  <%= render partial: 'definitions/form', locals: {
+    word: @word,
+    definition: Definition.new,
+    word_id: @word.id
+  } %>
+</div>
 
 <%= link_to 'Edit', edit_word_path(@word) %> |
 <%= link_to 'Back', words_path %>
